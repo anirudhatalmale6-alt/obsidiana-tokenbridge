@@ -37,7 +37,7 @@ body::before {
   position: fixed;
   inset: 0;
   background: url('../assets/images/wallpaper.png') center/cover no-repeat;
-  opacity: .3;
+  opacity: .45;
   z-index: -2;
   pointer-events: none;
 }
@@ -45,7 +45,7 @@ body::after {
   content: '';
   position: fixed;
   inset: 0;
-  background: linear-gradient(180deg, rgba(8,8,8,.4) 0%, rgba(8,8,8,.7) 50%, rgba(8,8,8,.85) 100%);
+  background: linear-gradient(180deg, rgba(8,8,8,.25) 0%, rgba(8,8,8,.55) 50%, rgba(8,8,8,.7) 100%);
   z-index: -1;
   pointer-events: none;
 }
@@ -363,8 +363,8 @@ ul { list-style: none; }
 .service-card:hover::before { opacity: 1; }
 
 .service-icon {
-  width: 64px;
-  height: 64px;
+  width: 80px;
+  height: 80px;
   margin: 0 auto 20px;
   display: flex;
   align-items: center;
@@ -372,9 +372,10 @@ ul { list-style: none; }
   font-size: 2rem;
 }
 .service-icon img {
-  width: 56px;
-  height: 56px;
+  width: 72px;
+  height: 72px;
   object-fit: contain;
+  filter: drop-shadow(0 4px 12px rgba(212,175,55,.3));
 }
 .service-card h3 {
   font-size: 1.15rem;
@@ -402,17 +403,25 @@ ul { list-style: none; }
 }
 .value-item {
   text-align: center;
-  padding: 24px;
+  padding: 32px 24px;
+  background: rgba(20,20,20,.5);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: var(--radius);
+  transition: all var(--transition);
+}
+.value-item:hover {
+  border-color: rgba(212,175,55,.2);
+  transform: translateY(-2px);
 }
 .value-icon {
-  font-size: 1.5rem;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
   color: var(--gold);
 }
 .value-item h3 {
   font-size: 1.05rem;
   font-weight: 700;
   margin-bottom: 10px;
+  color: var(--gold);
 }
 .value-item p {
   font-size: .9rem;
