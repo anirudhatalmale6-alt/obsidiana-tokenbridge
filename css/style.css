@@ -631,7 +631,6 @@ ul { list-style: none; }
 }
 .founder-bio .signature {
   color: var(--gold);
-  font-family: 'Instrument Serif', serif;
   font-weight: 700;
   font-style: italic;
   font-size: 1.1rem;
