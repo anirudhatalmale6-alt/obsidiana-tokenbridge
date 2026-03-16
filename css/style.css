@@ -297,7 +297,7 @@ ul { list-style: none; }
 .hero-content .hero-tagline {
   font-family: 'Instrument Serif', serif;
   font-style: italic;
-  font-size: clamp(2rem, 4.2vw, 3.2rem);
+  font-size: clamp(1.6rem, 3.6vw, 3.2rem);
   background: linear-gradient(90deg, var(--gold-dark), var(--gold-light), var(--gold));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -305,6 +305,7 @@ ul { list-style: none; }
   margin-bottom: 28px;
   line-height: 1.4;
   text-shadow: none;
+  max-width: none;
 }
 .hero-content p {
   font-size: 1rem;
@@ -849,6 +850,7 @@ ul { list-style: none; }
   .hamburger { display: flex; }
   .hero-content { padding: 20px; }
   .hero-centered { padding: calc(var(--nav-height) + 1vh) 20px 20px; }
+  .hero-content .hero-tagline { }
   .hero-bg { height: 50vh; min-height: 320px; }
   .services-grid { grid-template-columns: 1fr; }
   .services-grid .service-card:last-child { max-width: 100%; }
