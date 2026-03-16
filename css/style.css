@@ -626,7 +626,7 @@ ul { list-style: none; }
 .photo-track {
   display: flex;
   gap: 16px;
-  animation: scrollCarousel 40s linear infinite;
+  animation: scrollCarousel 60s linear infinite;
   width: max-content;
 }
 .photo-track img {
