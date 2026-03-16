@@ -132,16 +132,16 @@ ul { list-style: none; }
   padding: 11px 26px;
   background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
   color: #111 !important;
-  font-family: 'Instrument Serif', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: .95rem;
+  font-size: .85rem;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   transition: all var(--transition);
-  letter-spacing: .01em;
+  letter-spacing: .08em;
   white-space: nowrap;
-  text-transform: none;
+  text-transform: uppercase;
 }
 .btn-gold:hover {
   background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 100%);
