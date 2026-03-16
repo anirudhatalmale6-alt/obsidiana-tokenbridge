@@ -605,8 +605,6 @@ ul { list-style: none; }
 .founder-photo {
   flex-shrink: 0;
   width: 200px;
-  position: sticky;
-  top: calc(var(--nav-height) + 24px);
 }
 .photo-placeholder {
   width: 200px;
@@ -633,7 +631,9 @@ ul { list-style: none; }
 }
 .founder-bio .signature {
   color: var(--gold);
+  font-family: 'Instrument Serif', serif;
   font-weight: 700;
+  font-style: italic;
   font-size: 1.1rem;
   margin-top: 24px;
   text-align: right;
