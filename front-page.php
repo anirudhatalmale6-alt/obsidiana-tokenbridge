@@ -7,7 +7,10 @@ get_header(); ?>
   <!-- HERO -->
   <section class="hero">
     <div class="hero-bg">
-      <img src="<?php echo obsidiana_upload('hero2.jpg') . '?v=2'; ?>" alt="Crypto meets real world assets">
+      <picture>
+        <source media="(max-width: 1024px)" srcset="<?php echo obsidiana_upload('hero1.jpg') . '?v=1'; ?>">
+        <img src="<?php echo obsidiana_upload('hero2.jpg') . '?v=3'; ?>" alt="Crypto meets real world assets">
+      </picture>
     </div>
     <div class="hero-content hero-centered">
       <p class="hero-tagline reveal">Bridging the Gap Between Cryptos<br>and Real World Assets</p>
