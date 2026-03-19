@@ -9,7 +9,7 @@ function obsidiana_enqueue_assets() {
     wp_enqueue_style('obsidiana-fonts', 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&display=swap', array(), null);
 
     // Main stylesheet
-    wp_enqueue_style('obsidiana-style', get_template_directory_uri() . '/assets/css/obsidiana.css', array('obsidiana-fonts'), '1.0.2');
+    wp_enqueue_style('obsidiana-style', get_template_directory_uri() . '/assets/css/obsidiana.css', array('obsidiana-fonts'), '1.0.3');
 
     // Main JS
     wp_enqueue_script('obsidiana-js', get_template_directory_uri() . '/assets/js/main.js', array(), '1.0.0', true);
